@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 1rem;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+ol {
+  padding: 0;
+  margin: 0;
+  max-width: 700px;
+  position: relative;
+}
+
+li {
+  padding: 0.5rem 1.5rem 1rem;
+  border-radius: 1.5rem;
+  background: #fff2c5;
+}
+
+li + li {
+  margin-top: 1rem;
+}
+
+::marker {
+  font-weight: 600;
+  color: #f09103;
+  font-size: 1.8rem;
+}
+
+#title span, #subtitle span {
+  text-decoration: 5px underline #f09103;
+}
